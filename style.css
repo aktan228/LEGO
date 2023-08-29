@@ -1,0 +1,860 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header_container_menu {
+    max-width: 1600px;
+    display: flex;
+    /* padding: 15px; */
+    align-items: center;
+    background-color: #ffcf00;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 2px 30px 8px;
+    position: fixed;
+    box-sizing: content-box;
+}
+
+.menu_logo {
+    width: 100px;
+    height: 100px;
+    background: url(https://assets.lego.com/logos/v4.5.0/brand-lego.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav_ul {
+    display: flex;
+    gap: 30px;
+}
+
+.ul_li {
+    list-style-type: none;
+}
+
+.li_link {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.menu_logo_a_nav {
+    padding-left: 80px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_search {
+    cursor: pointer;
+}
+
+#search {
+    padding: 14px 14px 14px 50px;
+    border-radius: 30px;
+}
+
+#label {
+    position: relative;
+    right: -45px;
+    top: 13px;
+}
+
+.busket_button>svg {
+    width: 50px;
+    height: 50px;
+}
+
+.menu_search_a_basket {
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.busket_button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: #ffcf00;
+    cursor: pointer;
+}
+
+.menu_search_a_basket {
+    gap: 30px;
+}
+
+.banner_bgc_text {
+    background-color: white;
+    padding-top: 5%;
+}
+
+.banner_bgc {
+    background: url(./img/Lego\ Minifigures\ Series\ One.png);
+    /* width: 1600px; */
+    width: 100%;
+    padding-bottom: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner_bgc_text_title {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    padding-top: 90px;
+}
+
+.header_container_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bgc_text_button {
+    padding: 30px;
+    background-color: #ffcf00;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgc_text_form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px
+}
+
+.text_button_svg {
+    margin-left: 30px;
+}
+
+/*  */
+.batman_section_logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 80px 0px 80px;
+    background-color: black;
+}
+
+.cart {
+    width: 350px;
+    height: 523px;
+    /* width: 23%; */
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.cart_favorites_button {
+    display: flex;
+}
+
+.favorites_button_svg {
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.cart_img {
+    margin-top: 50px;
+    object-fit: cover;
+    height: 225px;
+}
+
+.cart_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.cart_rating {
+    display: flex;
+    gap: 5px;
+}
+
+.cart_info_bag {
+    background-color: #ffcf00;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.carts_box_cart {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .bat_mobile{
+    margin-top: 42px;
+} */
+.section_button_viev {
+    padding: 15px 30px;
+    background-color: #ffcf00;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.sectione_button {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    padding-bottom: 30px;
+}
+
+.sectione_story_bgc {
+    background: url(./img/bgc\ sectione.webp);
+    width: 100%;
+    height: 500px;
+}
+
+.story_bgc_quote {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-top: 240px;
+}
+
+.story_bgc_text {
+    width: 735px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.story_bgc_p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.sec_story {
+    margin-top: 20px;
+}
+
+.batman_cart {
+    margin-top: 30px;
+}
+
+.plush_toys_theme {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 80px 20px 80px;
+    background-color: pink;
+}
+
+.plush_toys_theme_title {
+    font-size: 50px;
+}
+
+.plush_cart {
+    margin-top: 30px;
+
+    background-color: white;
+    border: 1px solid black;
+    height: 600px;
+}
+
+.plush_info {
+    padding-top: 85px;
+}
+
+.section_for_adult_theme {
+    background-color: #282828;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 80px 40px 80px;
+}
+
+.adult_theme_log {
+    width: 291px;
+    height: 20px;
+
+}
+
+.text_box_title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.text_box_text {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+/* grhetagewhrgehershtjrerehs */
+.main_section_for_adult {
+    background-color: #282828;
+}
+
+.section_for_adult_text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section_for_adult_star_wars_them {
+    color: white;
+    /* background: url(./img/10_Hero-Tall-AdultsWelcome-About_Desktop.webp); */
+    background: url(./img/10\ Hero\ Tall\ AdultsWelcome\ About_Desktop.webp);
+    padding-bottom: 150px;
+    /* height: 630px; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.star_wars_them_title {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 371px;
+}
+
+.star_wars_them_text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section_for_adult_star_wars_them_box {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+}
+
+.star_wars_them_button {
+    margin-top: 15px;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.section_for_adult_elden_ring_them {
+    background: url(./img/adult\ box.webp);
+
+}
+
+.section_for_adult_elden_ring_them_box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    line-height: 2;
+    margin: 0 150px 0px 0;
+    padding-bottom: 110px;
+}
+
+.eiffel {
+    margin-left: 70px;
+}
+
+.for_adult_shop_them_title {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section_for_adult_shop_them {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.for_adult_shop_them_carts_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_container_batman_section {
+    background-color: black;
+}
+
+/* .batman_section_banner{
+
+} */
+.story_shop_title {
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+}
+
+.story_shop_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .sectione_story_shop{
+    background-color: rgb(255, 255, 255);
+} */
+.section_ninjago_logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 80px 30px 80px;
+    background-color: black;
+}
+
+.nin_but {
+    margin-bottom: 30px;
+}
+
+.section_ninjago_banner {
+    background-image: url(./img/FACVHv.jpg);
+    /* background-position: center; */
+    background-position: bottom;
+    padding-bottom: 900px
+}
+
+.footer_container {
+    background-color: rgb(80, 190, 236);
+}
+
+.footer_logo {
+    width: 100px;
+    height: 100px;
+    background: url(https://assets.lego.com/logos/v4.5.0/brand-lego.svg);
+    background-size: auto;
+    background-position: center;
+}
+
+.footer_info {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.maps {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.footer_about_us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.about_us_link {
+    color: white;
+}
+
+.footer_support {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.footer_copyright {
+    margin-top: 20px;
+    border-top: solid 1px white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright_text {
+    color: white;
+}
+
+.batman_section_banner>img {
+    width: 100%;
+}
+
+#burger {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+@media (max-width:1550px) {
+    .menu_logo_a_nav {
+        width: auto;
+    }
+
+    .banner_bgc_text_title {
+        padding-top: 150px;
+    }
+}
+
+@media (max-width:1375px) {
+    .container {
+        max-width: 1275px;
+    }
+
+    /* .star_wars_them_text {
+        width: 400px;
+    } */
+    .section_for_adult_elden_ring_them {
+        width: 870px;
+    }
+
+    .section_for_adult_elden_ring_them_box {
+        margin: 0;
+        width: 140%;
+    }
+
+    .star_wars_them_text {
+        width: 314px;
+    }
+
+    .star_wars_them_title {
+        width: 285px;
+    }
+
+    .star_wars_them_title {
+        margin-top: 133px;
+    }
+}
+
+@media (max-width:1250px) {
+
+    .section_for_adult_elden_ring_them {
+        display: none;
+    }
+
+    .story_bgc_p {
+        width: 500px;
+        padding-left: 190px;
+    }
+
+    .section_for_adult_star_wars_them_box {
+        width: 543px
+    }
+
+    .star_wars_them_title {
+        margin-top: 113px;
+        font-size: 30px;
+    }
+
+    .star_wars_them_button {
+        padding: 15px;
+    }
+
+    .footer_info {
+        width: 50%;
+    }
+
+}
+
+@media (max-width:1150px) {
+    .menu_logo_a_nav {
+        width: auto;
+    }
+}
+
+@media (max-width:1000px) {
+    .sectione_story_bgc {
+        background-position: center;
+    }
+
+    .story_bgc_text {
+        width: 421px;
+    }
+
+    .story_bgc_p {
+        width: 352px;
+        padding-left: 40px;
+        font-size: 15px;
+    }
+
+    .story_bgc_quote {
+        font-size: 40px
+    }
+
+    .footer_info {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .menu_search_a_basket {
+        gap: 0px;
+    }
+
+    .banner_bgc {
+        background-position: top;
+        padding-bottom: 450px;
+    }
+
+    .banner_bgc_text_title {
+        font-size: 70px;
+    }
+
+    .li_link {
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:850px) {
+    .banner_bgc_text {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width:826px) {
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+        left: -150px;
+        top: 20px;
+        margin-top: -30px;
+    }
+}
+
+@media (max-width:825px) {
+
+    /* .burger{
+        display: flex;
+    }
+    #burger:checked+label+nav {
+        display: block;
+        animation: show 3s ease;
+    }
+    .nav{
+        display: none;
+    } */
+
+    #burger:checked+label+.nav {
+        display: block;
+    }
+
+    .nav_ul {
+        flex-direction: column;
+        gap: 1px;
+        margin-left: 60px;
+    }
+
+}
+
+@media (max-width:825px) {
+    .for_adult_shop_them_carts_box {
+        justify-content: center;
+    }
+
+    .section_for_adult_star_wars_them_box {
+        width: 416px;
+    }
+
+    .section_ninjago_banner {
+        /* padding-bottom: 450px; */
+        padding-bottom: 40%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width:775px) {
+    .footer_info {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width:675px) {
+    .star_wars_them_text {
+        display: none;
+    }
+
+    .star_wars_them_title {
+        margin-top: 78px;
+    }
+
+    .footer_info {
+        width: 80%;
+        margin-left: 10%;
+    }
+    /* .section_ninjago_banner{
+        background-position: center;
+    } */
+}
+
+@media (max-width:630px) {
+    .text_box_text {
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        width: 305px;
+    }
+
+    .section_for_adult_text_box {
+        margin-top: 30px;
+    }
+
+    .banner_bgc_text_title {
+        font-size: 60px;
+    }
+    .nav_ul {
+        flex-direction: column;
+        gap: 1px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:567px) {
+    .menu_search {
+        margin-bottom: 25px;
+    }
+
+    #label {
+        position: relative;
+        right: -16px;
+        top: 45px;
+    }
+
+    .footer_info {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .story_bgc_text {
+        color: white;
+    }
+    .banner_bgc {
+        padding-bottom: 234px;
+    }
+}
+
+.banner_bgc_text_title {
+    font-size: 50px;
+}
+
+@media (max-width:475px) {
+    .menu_logo_a_nav {
+        padding-left: 58px
+    }
+    .footer_info {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .banner_bgc {
+        padding-bottom: 192px;
+    }
+    #search {
+        padding: 14px 0px 14px 50px;
+    }
+}
+@media (max-width:430px) {
+    .container{
+        max-width:none;
+    }
+    .banner_bgc_text_title {
+        font-size: 40px;
+    }
+    .bgc_text_button {
+        padding: 16px;
+    }
+    .footer_info{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #search{
+        width: 110px;
+    }
+    .header_container_menu{
+        /* width: 430px; */
+        padding: 30px 0 30px 0;
+    }
+    .menu_logo {
+        width: 67px;
+    }
+    .burger {
+        left: -115px;
+    }
+    /* .menu_search{
+        display: none;
+    } */
+    /* .container{
+        background-color: rgb(255, 255, 255);
+    }
+    .carts_box_cart{
+        background-color: white;
+    } */
+}
+@media (max-width:425px) {
+    .header_container_menu{
+        width: 425px ;
+    }
+}
+@media (max-width:415px) {
+    .header_container_menu{
+        width: 415px ;
+    }
+}
+@media (max-width:405px) {
+    .header_container_menu{
+        width: 405px ;
+    }
+}
+@media (max-width:400px) {
+    .header_container_menu{
+        width: 400px ;
+    }
+}
+@media (max-width:395px) {
+    .header_container_menu{
+        width: 395px ;
+    }
+}
+@media (max-width:385px) {
+    .header_container_menu{
+        width: 385px ;
+    }
+}
+@media (max-width:375px) {
+    .header_container_menu{
+        width: 375px ;
+    }
+}
